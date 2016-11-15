@@ -1,0 +1,34 @@
+html,
+body,
+.n-map {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+input {
+	position: absolute;
+	width: 100%;
+	height: 25px;
+	top: 0;
+}
+
+.list-view {
+		position: absolute;
+		top: 30px;
+		z-index: 1;
+		background-image: url('../images/gcap.jpg');
+		color: white;
+}
+
+.list-view p {
+		font-size: 1.0em;
+		font-weight: bold;
+		font-style: italic;
+		font-family: "Times New Roman", Times, serif;
+		margin: 10px 5px;
+}
+
+.list-view p:hover {
+		cursor: pointer;
+}
